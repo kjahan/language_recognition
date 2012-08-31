@@ -1,0 +1,13 @@
+Language Recognition Applet
+===========================
+
+General description: 
+This project is a Java Applet for the language recognition problem.
+
+
+Implementation period: May 2008
+
+Technical details: 
+I implemented this program as an assignmnet for the "Artificial Intelligence" course in Summer 2008. The code takes a couple of words in one of three languages English, Spanish, or French as input and outputs the language of the input.
+
+The program's output does not rely on words accents from Spanish or French language. This means that the user can replace the French character "â" with "a" or the Spanish character "ó" with "o" when providing the input. The program uses a small corpus of important words for each language (this is collected by another program) plus the occurence likelihood of each word for each language. The code uses the Bayes' theorem to compute the likelihoods that the given input is written in any of three languages.
